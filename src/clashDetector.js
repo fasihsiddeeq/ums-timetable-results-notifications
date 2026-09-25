@@ -25,6 +25,7 @@ function sharesResource(a, b) {
  * An empty array means no clash.
  */
 function hasClash(newEntry, existingEntries) {
+
   const newStart = timeToMinutes(newEntry.startTime);
   const newEnd = timeToMinutes(newEntry.endTime);
 
@@ -38,6 +39,7 @@ function hasClash(newEntry, existingEntries) {
     if (!timesOverlap(newStart, newEnd, exStart, exEnd)) return false;
 
     return sharesResource(newEntry, existing);
+     
   });
 }
 
