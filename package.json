@@ -1,0 +1,12 @@
+{
+  "name": "ums-timetable-results-notifications",
+  "version": "1.0.0",
+  "description": "UMS increment: Timetable Management, Result/Grade Management, Notifications (SE-1001 ITSE Assignment 2)",
+  "main": "src/clashDetector.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
